@@ -3,6 +3,7 @@ from types import DynamicClassAttribute
 from unicodedata import name
 from urllib import response
 import sqlite3
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, ForeignKey, Table
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.ext.declarative import declarative_base

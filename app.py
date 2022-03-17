@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 
 from WeightLifter import WeightLifter
 app = Flask(__name__)
