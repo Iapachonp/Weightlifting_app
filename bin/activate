@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/ivan.pachon/Documents/Earnest/Personal-Scripts/Weightlifting-app/WeightLiftingapp"
+VIRTUAL_ENV="/Users/ivan.pachon/Documents/Weightlifting_app/Weightlifting_app"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(WeightLiftingapp) ${PS1:-}"
+    PS1="(Weightlifting_app) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(WeightLiftingapp) "
+    VIRTUAL_ENV_PROMPT="(Weightlifting_app) "
     export VIRTUAL_ENV_PROMPT
 fi
 

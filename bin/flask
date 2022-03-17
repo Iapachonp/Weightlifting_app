@@ -1,4 +1,4 @@
-#!/Users/ivan.pachon/Documents/Earnest/Personal-Scripts/Weightlifting-app/WeightLiftingapp/bin/python3
+#!/Users/ivan.pachon/Documents/Weightlifting_app/Weightlifting_app/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
